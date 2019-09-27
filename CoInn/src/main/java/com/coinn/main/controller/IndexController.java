@@ -10,7 +10,7 @@ import lombok.extern.java.Log;
 
 @Log
 @Controller
-@RequestMapping("/brittville")
+@RequestMapping("/coinn")
 public class IndexController {
 
 	
@@ -19,4 +19,14 @@ public class IndexController {
 	public void index() {
 		
 	}
+ 
+ 
+	
+	@GetMapping("/listing")
+	public void listing() {
+		
+	}
+	
+	
+	
 }
